@@ -84,3 +84,19 @@
     width: 40%;
     
 }
+
+#centrovideo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 3%;
+    padding: 1%;
+
+}
+
+#centro1video{
+    padding: 1%;
+    border-radius: 33px;
+    width: 277px;
+    margin: 3%;
+}
