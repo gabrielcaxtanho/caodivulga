@@ -237,17 +237,21 @@ font-weight: 400;
     .container{
         display: flex;
         flex-direction: column;
-        margin-top: 130px;
+        height: 100vh;
     }
+
+    .sacodedinheiro{
+        width: 170px;
+    }
+
     .primario{
         padding: 0px;
     }
 
     .container-pc2{
-        padding: 150px;
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 150px;
+        margin-top: 250px;
     }
 
     
@@ -265,12 +269,6 @@ font-weight: 400;
     .container-recompensa{
         width: 300px;
     }
-}
-
-
-@media (max-width: 800px){
-    
-   
 
     .centro{
         width: 300px;
@@ -281,9 +279,6 @@ font-weight: 400;
     flex-direction: column;
     }
 
-
-    .texto__footer{
-    }
 
     .botaoprimario{
         width: 250px;
@@ -306,7 +301,8 @@ font-weight: 400;
     }
 
     .betocorrendo{
-        width: 250px;
+        width: 300px;
+        margin-top: 100px;
     }
 
     .terceiro{
@@ -314,9 +310,7 @@ font-weight: 400;
         margin-top: 0px;
     }
 
-    .sacodedinheiro{
-        width: 250px;
-    }
+    
 
     .container-media{
         width: 250px;
@@ -365,5 +359,20 @@ font-weight: 400;
         padding: 0;
     }
 
+
+    .terceiro{
+        margin-top: -100px;
+    }
+
+
+}
+
+
+@media (max-width: 375px){
+
+    .primario {
+        padding-top: 190px;
+
+    }
 
 }
