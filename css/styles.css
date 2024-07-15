@@ -370,9 +370,19 @@ font-weight: 400;
 
 @media (max-width: 500px){
 
+    body{
+        padding-top: 25px;
+    }
+
     .primario {
-        padding-top: 220px;
+        padding-top: 250px;
 
     }
+
+    .container-pc2{
+        padding: 20px;
+    }
+
+
 
 }
